@@ -1,0 +1,55 @@
+.genre-detail-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.genre-detail-header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.genre-detail-id {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.genre-detail-title {
+  font-size: clamp(3.5rem, 9vw, 7rem);
+  line-height: 0.9;
+  margin-bottom: 1rem;
+}
+
+.genre-detail-count {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.detail-movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.detail-empty {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-muted);
+}

@@ -1,0 +1,28 @@
+.error-box {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: rgba(255, 80, 80, 0.08);
+  border: 1px solid rgba(255, 80, 80, 0.3);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.error-icon {
+  font-size: 1.4rem;
+  margin-top: 2px;
+}
+
+.error-box strong {
+  display: block;
+  color: #ff6b6b;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.error-box p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
